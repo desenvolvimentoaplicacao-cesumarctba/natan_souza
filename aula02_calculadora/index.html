@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>Calculador humana*</title>
+	</head>
+	<body>
+	<div class="main">
+		<label for="val1">Valor 1:</label>	
+		<input type="text" id="val1" placeholder="Digite um valor"><br>
+		<label for="val2">Valor 2:</label>
+		<input type="text" id="val2" placeholder="Digite um valor"><br>
+	</div>
+	<div class="options">	
+		<input type="radio" name="calc" value="1">Somar</input>
+		<input type="radio" name="calc" value="2">Subtrair</input>
+		<input type="radio" name="calc" value="3">Dividir</input>
+		<input type="radio" name="calc" value="4">Multiplicar</input>
+	</div>
+	<div class="envio">	
+		<button class="calc" type="submit">Calcular</button>
+		<br>
+		<p>Resultado = <strong class="res"></strong></p>
+	</div>
+	</body>
+</html>
+<script src="./plugins/jquery-3.4.1.min.js"></script>
+<script src="./assets/js/calc.js"></script>
